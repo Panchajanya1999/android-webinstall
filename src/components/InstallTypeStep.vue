@@ -6,7 +6,7 @@
             <div class="text-body-1">
                 <p>
                     This installer can help you update from an older version of
-                    {{ $root.$data.OS_NAME }} or switch to it from another OS,
+                    {{ $root.$data.OS_NAME }} or switch to it from another kernel,
                     but you need to choose which one you want.
                 </p>
             </div>
