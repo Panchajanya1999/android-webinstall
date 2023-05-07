@@ -19,38 +19,6 @@
                 class="ma-4 d-flex flex-column"
                 ripple
                 :color="
-                    $root.$data.installType === 'clean'
-                        ? 'grey lighten-4'
-                        : null
-                "
-                :class="
-                    $root.$data.installType === 'clean'
-                        ? 'v-card--selected'
-                        : null
-                "
-                @click="setType('clean')"
-            >
-                <v-card-title class="mt-n2">
-                    <v-icon class="pr-2 py-2" color="rgba(0, 0, 0, 0.87)"
-                        >mdi-cellphone-erase</v-icon
-                    >
-                    Clean install</v-card-title
-                >
-                <v-card-subtitle
-                    >Switch from the stock OS or another ROM to
-                    {{ $root.$data.OS_NAME }}.
-                    <strong class="red--text text--darken-2"
-                        >All data on your device will be lost.</strong
-                    >
-                </v-card-subtitle>
-            </v-card>
-
-            <v-card
-                outlined
-                max-width="16rem"
-                class="ma-4 d-flex flex-column justify-space-between"
-                ripple
-                :color="
                     $root.$data.installType === 'update'
                         ? 'grey lighten-4'
                         : null
@@ -71,7 +39,7 @@
                     >
                     <v-card-subtitle
                         >Update from an older version of
-                        {{ $root.$data.OS_NAME }}. Your data won’t be affected.
+                        {{ $root.$data.OS_NAME }} or from stock kernel. Your data won’t be affected.
                     </v-card-subtitle>
                 </div>
             </v-card>
