@@ -4,7 +4,7 @@
             {
                 "version": "YGL",
                 "variant": "stable",
-                "url": ""
+                "url": "https://azure-buckets.nyc3.cdn.digitaloceanspaces.com/image-azure-bluejay-boot-20230528-19%2046%2026.zip"
             }
         ],
         "raviole": [
